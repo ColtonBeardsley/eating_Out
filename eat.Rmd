@@ -68,6 +68,6 @@ The results of the chi-squared test show a chi-squared statistic that significan
 fisherXY(mydata$race,mydata$eatout,printAll=TRUE,confL = 0.99)
 ```   
 
-
+We noticed that the critical p-value pertained to the relationship between the black and white racial categories. We presented all the p-values for different combinations, which indicates that the only significant difference is within the "black" and "white" variables.
 
 
