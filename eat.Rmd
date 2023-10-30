@@ -45,7 +45,13 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 There is a noticeable contrast in the dining-out habits between the white population and other racial groups, which is indicated by the percentage-based graphical data. Nevertheless, when examining the non-percentage data, it becomes evident that the sample size for non-white racial groups is considerably smaller compared to that of the white population.
 
+# Numerical Results   
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+``` 
 
 
 
